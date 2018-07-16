@@ -1,0 +1,15 @@
+/*浏览器有一个默认的内外边距，全局设置去掉*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-color: #2286c6;
+	font-size: 12px;
+}
+
+.content{
+	width: 780px;
+	margin: 0 auto;
+}

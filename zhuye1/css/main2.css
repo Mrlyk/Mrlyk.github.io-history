@@ -1,0 +1,118 @@
+.nav {
+    width: 780px;
+    margin: 0 auto;
+
+}
+
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    width: 78px;
+    text-align: center;
+}
+.nav ul li a:hover{
+	background:url(../img/button1_bg.jpg) no-repeat;
+	color: #fff;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 9px 6px 11px 6px;
+    background: url(../img/button1.jpg) no-repeat;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.nav ul li:hover .nav2{
+	display: block;
+
+}
+
+.nav2{
+	display: none;
+	position: absolute;
+	z-index: 999;
+	width: 78px;
+}
+
+.nav2li {
+    float: none;
+}
+
+.nav2li a{
+	background: #555;
+
+}
+
+.left{
+	width: 200px;
+	float: left;
+	margin:5px 0px;
+	padding: 0px 0px 5px 0px;
+	background: #ffffff;
+	
+
+}
+
+/*给父元素做标签*/
+/*.left div{
+	background-color: #5ea6eb;
+	margin: 0px 5px 0px 5px;
+}*/
+
+.cooc h3 {
+    display: block;
+    background: url(../img/weather.jpg) no-repeat;
+    color: white;
+    font-size: 12px;
+    padding: 25px 0px 3px 0px;
+    text-align: center;
+
+
+}
+
+.cooc ul{
+	background: #5ea6eb;
+	margin:0px 5px 0px 5px;
+	border-top: 1px solid #fff;
+	padding: 10px 0px 10px 10px;
+	list-style: none;
+
+}
+.cooc ul li{
+	padding-left: 8px;
+	background: url(../img/icon1.gif) no-repeat 0px 5px;
+	color: white;
+}
+
+.cooc2 ul{
+	list-style: none;
+	background: #5ea6eb;
+	text-align: center;
+    margin:0 5px 0 5px;
+}
+
+.cooc2 h3{
+	 background:#bbddff url(../img/icon1.jpg) no-repeat;
+	 color: #003973;
+	 margin:0 5px 0 5px;
+}
+
+.cooc2 ul li{
+	padding-left: 3px;
+	padding-top: 7px;
+
+}
+
+.cooc2 ul li a{
+	color: #fff;
+}
+
+.cooc2 img{
+	border: 1px solid #fff;
+}

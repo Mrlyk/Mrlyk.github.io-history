@@ -1,0 +1,55 @@
+.right {
+    width: 177px;
+    background: #fff;
+    float: left;
+}
+
+.right h3 {
+    background: #bbddff;
+    color: #003973;
+    margin: 2px 5px 0 5px;
+    padding-left: 2px;
+}
+
+.right ul {
+    list-style: none;
+    background: #5ea6eb;
+    text-align: center;
+    margin: 0 5px 0 5px;
+    padding-bottom: 20px;
+
+}
+
+.right img {
+    border: 1px solid #fff;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.rigbot ul{
+	padding-bottom: 18px;
+}
+
+.rigbot ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.rigbot ul li{
+	border-bottom: 1px dashed #fff;
+	margin-right: 8px;
+	padding: 3px 0 3px 0;
+}
+
+.foot{
+	width: 780px;
+	height: 30px;
+	background-color: #fff;
+	float: left;
+	text-align: center;
+
+}
+
+.foot h3{
+	margin: 5px;
+	width: 770px;
+	background: #5ea6eb;
+}

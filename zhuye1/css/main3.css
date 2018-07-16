@@ -1,0 +1,47 @@
+.center{
+	width: 400px;
+	float: left;
+	background: #fff;
+	text-align: center;
+	margin-left: 3px;
+}
+
+.cenimg img{
+	margin-top: 3px;
+}
+
+.cenimg2 h3{
+	margin:3px;
+	float: left;
+
+}
+
+.cenimg2 ul{
+	list-style: none;
+	float: left;
+}
+
+.cenimg2 ul li{
+	float: left;
+	margin:8px 5px 3px 10px;
+}
+
+.center2{
+	float: left;
+}
+.center2 ul{
+	list-style: none;
+}
+.center2 ul li{
+	background: url(../img/icon1.gif) no-repeat 15px 8px;
+	margin-bottom: 6px;
+	margin-top: 5px;
+}
+.center2 ul li a{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.center2 ul li a:hover{
+	color: #000;
+}
