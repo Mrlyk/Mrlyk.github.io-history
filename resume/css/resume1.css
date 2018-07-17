@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #888;
+}
+ul{
+	list-style: none;
+}
+h2{
+	font-weight: 400;
+	color: #888;
+	margin-bottom: 3px;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	height: 978px;
+	margin: 0 auto;
+	box-shadow: 0px 3px 5px #8888;
+}
+/*头部*/
+.head{
+	display: flex;
+	flex-direction: row;
+	height: 170px;
+	background: rgb(234,234,234);
+	margin: 10px;
+	
+}
+.headLeft{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	padding-left: 80px;
+}
+
+.name p{
+	font-size: 39px;
+	font-family: "Microsoft YaHei UI";
+}
+
+.lastName p{
+	font-weight: 300;
+
+}
+.headRight{
+	flex: 1;
+	display: flex;
+	position: relative;
+}
+
+.headRight nav{
+	/*float: right;*/
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+}
+.headRight li{
+	text-align: right;
+}
+.headRight a{
+	font-weight: 300;
+	font-size: 15px;
+}
+
+/*内容*/
+.body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.body li{
+	font-weight: 300;
+	color: #888;
+	margin-bottom: 2px;
+}
+.body img{
+	width: 35px;
+}
+
+.job{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px;
+}
+.contentImg{
+	flex: 1;
+	padding-right: 3px;
+}
+
+.jobContent{
+	flex: 6.2;
+	font-weight: 300;
+}
+
+.contentImg img{
+	float: right;
+}
