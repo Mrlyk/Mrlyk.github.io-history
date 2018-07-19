@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	float: left;
+	display: block;
+	background: #8888;
+	height: 100%;
+	width: 15%;
+	min-width: 50px;
+	border-bottom: 2px solid #efefef;
+	text-align: center;
+	line-height: 120px;
+	font-size: 20px;
+}
+section{
+	float: left;
+	border-bottom: 2px solid #8888;
+	width: 100%;
+	height: 120px;
+	box-sizing: border-box;
+}
+
+.button1{
+	float: left;
+}
+.button1 input{
+	/*mac下加下面的属性才能更改外观样式*/
+	-webkit-appearance:button;
+	padding: 8px 0 8px 0;
+	color: #888;
+	box-shadow: 1px 1px 1px #8888;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.content{
+	margin: 10px auto;
+	width: 90%;
+	min-width: 700px;
+	height: 700px;
+	border: 1px solid #8888;
+	box-shadow: 0px 1px 1px #888;
+}
+
+.left{
+	width: 100%;
+	height: 100px;
+	background: #888;
+}
+.left h1{
+	line-height: 100px;
+	margin-left: 10px;
+	color: #fff;
+}
+.right{
+	float: left;
+}

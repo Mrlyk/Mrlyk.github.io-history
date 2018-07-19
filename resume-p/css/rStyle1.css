@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	margin-bottom: 18px;
+}
+section{
+	margin-bottom: 26px;
+}
+.button1{
+	float: left;
+}
+.button1 input{
+	/*mac下加下面的属性才能更改外观样式*/
+	-webkit-appearance:button;
+	padding: 8px 0 8px 0;
+	color: #888;
+	box-shadow: 1px 1px 1px #8888;
+	border-radius: 5px;
+	text-align: center;
+}
+.content{
+	margin: 10px auto;
+	display: table;
+	min-width: 670px;
+	max-width: 800px;
+	height: 800px;
+	font-size: 16px;
+	border: 1px solid #8888;
+	box-shadow: 0px 1px 1px #888;
+}
+
+.left{
+	float: left;
+	background: rgb(84,143,246);
+	width: 20%;
+	height: 100%;
+	min-width: 130px;
+	max-width: 170px;
+	text-align: center;
+}
+.left h1{
+	color: #fff;
+	line-height: 130px;
+}
+.right{
+	float: left;
+	padding: 10px 0px 0px 15px;
+	box-sizing: border-box;
+	min-width: 530px;
+	height: 100%;
+}
