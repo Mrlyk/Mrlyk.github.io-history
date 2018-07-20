@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+
+}
+/*双浮动实现*/
+.box1{
+	width: 30%;
+	height: 100%;
+	background: #8888;
+	float: left;
+}
+.box2{
+	width: 70%;
+	height: 100%;
+	background: #888;
+	float: left;
+}
