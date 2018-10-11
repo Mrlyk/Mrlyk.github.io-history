@@ -2,7 +2,226 @@
 	margin: 0;
 	padding: 0;
 }
+html,body{
+	height: 100%;
+}
 
 .content{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-width: 1200px;
+}
+/*头部样式*/
+.head{
+	height: 80px;
+	background-color: #42474b;
+	position: relative;
+	font-size: 16px;
 	
+}
+
+.head_logo{
+	margin-left: 50px;
+	float: left;
+	display: inline;
+}
+
+.head_logo img{
+	margin: 14px auto auto 10px;
+}
+
+.head_ul{
+	list-style: none;
+	float: left;
+	margin-left: 58px;
+}
+
+.head_ul li{
+	float: left;
+	display: block;
+	margin-right: 58px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.head_ul a{
+	text-decoration: none;
+	color: #b1b3b4;
+}
+
+.head_ul li:hover a{
+	color: white;
+}
+/*头部二级菜单样式*/
+.head_ul_dropdown{
+	display: none;
+	width: 118px;
+	background-color: #474c50;
+	position: absolute;
+	height: 342px;
+	z-index: 999;
+	/*overflow: hidden;*/
+}
+
+
+/*头部二级菜单内部样式*/
+.head_ul_dropdown ul{
+	padding-top: 8px;
+}
+
+.head_ul_dropdown li{
+	float: none;
+	height: 35px;
+	display: block;
+	width: 100%;
+	transition: background-color 0.6s;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	-o-transition: background-color 0.6s;
+}
+
+.head_ul .head_ul_dropdown a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 35px;
+	padding-left: 10px;
+		
+}
+
+
+.head_ul .head_ul_dropdown li:hover{
+	background-color: #03b5cf;
+
+}
+.head_ul li:hover .head_ul_dropdown{
+	display: block;
+}
+
+/*头部三级菜单样式*/
+.head_ul_dropdown_a{
+	display: none;
+	height: 342px;
+	background-color: #50585b;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 200px;
+	z-index: 999;
+}
+
+.head_ul_dropdown1:hover .head_ul_dropdown_a{
+	display: block;
+}
+
+
+/*头部三级菜单内部样式*/
+.head_ul_dropdown_a ul{
+	padding: 8px 0 0 0;
+
+}
+
+.head_ul_dropdown_a li{
+	display: block;
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	
+	margin-right:56px; 
+	margin-bottom: 10px;
+
+}
+
+.head_ul_dropdown_a a{
+	font-size: 14px;
+	color: white;
+	display: block;
+	background-color:#474c50;
+	/*padding-left: 10px;*/
+	margin:0 10px;
+
+}
+
+.head_ul_dropdown_a a:hover{
+	background-color: #03b5cf;
+}
+/*头部四级菜单样式*/
+.head_ul_dropdown_b{
+	display: none;
+	height: 342px;
+	background-color: #474c50;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 200px;
+	z-index: 999;
+
+}
+
+/*头部四级菜单内部样式*/
+.head_ul_dropdown_b ul li a{
+	display: block;
+	background-color: #6c777d;
+}
+
+/*/头部四级菜单内部样式*/
+
+.head_ul_dropdown2:hover .head_ul_dropdown_b{
+	display: block;
+}
+
+.head::after{
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+/*头部样式*/
+
+
+/*中间内容样式*/
+.body{
+	
+	
+}
+
+/*标题*/
+.body_container h1{
+	height: 180px;
+	line-height: 180px;
+	text-align:center;
+	font-size: 24px;
+}
+
+.body_container h1::after{
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+/*标题内容*/
+.body_title_container{
+	display: flex;
+	flex-direction: row;
+	background-color: #42474b;
+	height: 350px;
+	justify-content: center;
+
+}
+.body_title_container1:hover{
+	background-color: #03b5cf;
+
+}
+
+.body_title_container::after{
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.foot{
+	
+
+
 }
